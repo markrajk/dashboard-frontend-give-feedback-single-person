@@ -99,10 +99,11 @@ body {
   position: relative;
   width: 100%;
   margin-left: 24.4rem;
-  padding: 4.1rem 4.6rem 2.8rem 3.4rem; }
+  padding: 0 4.6rem 2.8rem 3.4rem; }
   .results-header {
     height: 17rem;
-    background-color: #f8f9fb; }
+    background-color: #f8f9fb;
+    padding-top: 4.1rem; }
     .results-header .back {
       font-size: 1.5rem;
       color: #1a173b; }
