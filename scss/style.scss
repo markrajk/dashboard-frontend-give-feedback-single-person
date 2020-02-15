@@ -151,7 +151,7 @@ body {
       font-size: 1.2rem;
       border-color: #eaebee;
       color: #002257;
-      border-radius: 3px;
+      border-radius: 4px;
 
       font-weight: 700;
     }
@@ -247,7 +247,7 @@ body {
 
   & .input-container {
     padding: 2.5rem 3.2rem;
-    width: 36rem;
+    max-width: 36rem;
     height: 15rem;
     border-radius: 4px;
     border: solid 1.5px #eaebee;
@@ -264,7 +264,7 @@ body {
 
       position: relative;
       //width: 100%;
-      width: 28rem;
+      max-width: 28rem;
       z-index: 1000;
 
       // @include respond(desktop-xsm) {
@@ -331,7 +331,8 @@ body {
       margin-bottom: 3.3rem;
       font-size: 1.5rem;
       //border: solid 2px #0077ff;
-      border: solid 1.5px #c3cad9;
+      border-radius: 2px;
+      border: solid 2px #e4e4e4;
       background-color: #ffffff;
       color: #000;
 
@@ -364,7 +365,7 @@ body {
 
       &::placeholder {
         font-size: 1.5rem;
-        color: #959ead;
+        color: #000;
       }
     }
 
@@ -416,17 +417,17 @@ body {
   }
 
     & .employee {
-      width: 82rem;
-      height: 47rem;
+      max-width: 82rem;
+      max-height: 47rem;
       padding: 3.5rem;
       border: solid 1.5px #eaebee;
-      border-radius: 3px;
-      @include respond(desktop-lg) {
-        width: 100%;
-      }
+      border-radius: 4px;
+      // @include respond(desktop-lg) {
+      //   width: 100%;
+      // }
 
       &-header {
-
+        max-height: 100%;
         & .name  {
           display: inline-block;
           margin-left: 1.2rem;
@@ -506,7 +507,7 @@ body {
           background-color: #0077ff;
           color: #FFF;
           border: none;
-          border-radius: 5px;
+          border-radius: 4px;
           margin-bottom: 2rem;
 
           & i {
